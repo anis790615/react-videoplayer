@@ -1,6 +1,8 @@
 import React from "react";
-// import StyledPlaylistItem from './styles/StyledPlaylistItem';
+import StyledPlaylistItem from "./styles/StyledPlaylistItem";
 
-const PlaylistItem = (props) => <div>PlaylistItem</div>;
+const PlaylistItem = (props) => (
+  <StyledPlaylistItem>PlaylistItem</StyledPlaylistItem>
+);
 
 export default PlaylistItem;
