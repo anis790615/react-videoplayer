@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="theme-color" content="#000000">
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#000000" />
     <!--
       manifest.json provides metadata used when your web app is added to the
       homescreen on Android. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
-    <link href="https://fonts.googleapis.com/css?family=Hind:700" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link
+      href="https://fonts.googleapis.com/css?family=Hind:700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -24,17 +30,39 @@
     <title>React App</title>
   </head>
   <body>
-
-    <input hidden value="{&quot;playlistId&quot;:&quot;wbn_rdx&quot;,&quot;playlist&quot;:[{&quot;num&quot;:1,&quot;title&quot;:&quot;Introduction and setup&quot;,&quot;id&quot;:&quot;ghI-gMi1DPc&quot;,&quot;duration&quot;:&quot;10:51&quot;,&quot;video&quot;:&quot;https://www.youtube.com/embed/ghI-gMi1DPc&quot;},
-    {&quot;num&quot;:2,&quot;title&quot;:&quot;Folder structure, midware and provider&quot;,&quot;id&quot;:&quot;ejJlnMPCmNo&quot;,&quot;duration&quot;:&quot;13:27&quot;,&quot;video&quot;:&quot;https://www.youtube.com/embed/ejJlnMPCmNo&quot;},
-    {&quot;num&quot;:3,&quot;title&quot;:&quot;Action creators for the Home Page&quot;,&quot;id&quot;:&quot;4tuFk_pdWVo&quot;,&quot;duration&quot;:&quot;17:35&quot;,&quot;video&quot;:&quot;https://www.youtube.com/embed/4tuFk_pdWVo&quot;},
-    {&quot;num&quot;:4,&quot;title&quot;:&quot;Reducers for the Home Page&quot;,&quot;id&quot;:&quot;Jh6Abc_bJ50&quot;,&quot;duration&quot;:&quot;08:34&quot;,&quot;video&quot;:&quot;https://www.youtube.com/embed/Jh6Abc_bJ50&quot;},
-    {&quot;num&quot;:5,&quot;title&quot;:&quot;Connecting the Home Page&quot;,&quot;id&quot;:&quot;ztHLpdVv9Vc&quot;,&quot;duration&quot;:&quot;13:42&quot;,&quot;video&quot;:&quot;https://www.youtube.com/embed/ztHLpdVv9Vc&quot;},
-    {&quot;num&quot;:6,&quot;title&quot;:&quot;Quick Recap&quot;,&quot;id&quot;:&quot;iV5GDHY_cJk&quot;,&quot;duration&quot;:&quot;05:50&quot;,&quot;video&quot;:&quot;https://www.youtube.com/embed/iV5GDHY_cJk&quot;},
-    {&quot;num&quot;:7,&quot;title&quot;:&quot;Completing the App&quot;,&quot;id&quot;:&quot;XMmSM0TqQ2k&quot;,&quot;duration&quot;:&quot;16:33&quot;,&quot;video&quot;:&quot;https://www.youtube.com/embed/XMmSM0TqQ2k&quot;},
-    {&quot;num&quot;:8,&quot;title&quot;:&quot;BONUS - Persist the state in sessionStorage&quot;,&quot;id&quot;:&quot;r5fLW4PUrSQ&quot;,&quot;duration&quot;:&quot;10:06&quot;,&quot;video&quot;:&quot;https://www.youtube.com/embed/r5fLW4PUrSQ&quot;},
-    {&quot;num&quot;:9,&quot;title&quot;:&quot;BONUS - Higher order functions&quot;,&quot;id&quot;:&quot;L89dt9sHNJ0&quot;,&quot;duration&quot;:&quot;06:09&quot;,&quot;video&quot;:&quot;https://www.youtube.com/embed/L89dt9sHNJ0&quot;}
-    ]}" name="videos">
+    <input
+      hidden
+      value='{ "playlistId": "dua_lipa", "playlist": [ { "num": 1,
+    "title": "Dua Lipa - Future Nostalgia (Official Lyrics Video)", "id":
+    "ghI-gMi1DPc", "duration": "03:07", "video":
+    "https://www.youtube.com/watch?v=8EJ-vZyBzOQ&list=PLNrotoZZ8BaouNABcO_A9Xkn_Nkz0PT11&index=1"
+    }, { "num": 2, "title": "Dua Lipa - Dont Start Now (Official Music Video)",
+    "id": "ejJlnMPCmNo", "duration": "03:02", "video":
+    "https://www.youtube.com/watch?v=oygrmJFKYZY&list=PLNrotoZZ8BaouNABcO_A9Xkn_Nkz0PT11&index=2"
+    }, { "num": 3, "title": "Dua Lipa - Cool (Official Lyrics Video)", "id":
+    "4tuFk_pdWVo", "duration": "03:35", "video":
+    "https://www.youtube.com/watch?v=uY8tAKDVxK8&list=PLNrotoZZ8BaouNABcO_A9Xkn_Nkz0PT11&index=3"
+    }, { "num": 4, "title": "Dua Lipa - Physical (Official Video)", "id":
+    "Jh6Abc_bJ50", "duration": "04:04", "video":
+    "https://www.youtube.com/watch?v=9HDEHj2yzew&list=PLNrotoZZ8BaouNABcO_A9Xkn_Nkz0PT11&index=4"
+    }, { "num": 5, "title": "Dua Lipa - Levitating (Official Lyrics Video)",
+    "id": "ztHLpdVv9Vc", "duration": "03:40", "video":
+    "https://www.youtube.com/watch?v=WHuBW3qKm9g&list=PLNrotoZZ8BaouNABcO_A9Xkn_Nkz0PT11&index=5"
+    }, { "num": 6, "title": "Dua Lipa - Pretty Please (Official Lyrics Video)",
+    "id": "iV5GDHY_cJk", "duration": "03:14", "video":
+    "https://www.youtube.com/watch?v=ylzhMn6MlVc&list=PLNrotoZZ8BaouNABcO_A9Xkn_Nkz0PT11&index=6"
+    }, { "num": 7, "title": "Dua Lipa - Break My Heart (Official Video)", "id":
+    "XMmSM0TqQ2k", "duration": "03:49", "video":
+    "https://www.youtube.com/watch?v=Nj2U6rhnucI&list=PLNrotoZZ8BaouNABcO_A9Xkn_Nkz0PT11&index=9"
+    }, { "num": 8, "title": "Dua Lipa - Love Again (Official Lyrics Video)",
+    "id": "r5fLW4PUrSQ", "duration": "04:18", "video":
+    "https://www.youtube.com/watch?v=LAdxhHz6Tu4&list=PLNrotoZZ8BaouNABcO_A9Xkn_Nkz0PT11&index=8"
+    }, { "num": 9, "title": "Dua Lipa - Boys Will Be Boys (Official Lyrics
+    Video)", "id": "L89dt9sHNJ0", "duration": "02:46", "video":
+    "https://www.youtube.com/watch?v=k0QWX2M7W7M&list=PLNrotoZZ8BaouNABcO_A9Xkn_Nkz0PT11&index=11"
+    } ] }'
+      name="videos"
+    />
 
     <noscript>
       You need to enable JavaScript to run this app.
