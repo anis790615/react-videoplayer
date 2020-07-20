@@ -5,8 +5,6 @@ const StyledJourney = styled.div`
   font-size: 0.8em;
   padding: 2px 5px;
   height: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   flex-direction: row;
   align-items: center;
